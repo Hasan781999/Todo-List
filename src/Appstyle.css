@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+*{
+  font-family: "Inder", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: lightgrey;
+}
+
+.todo-container {
+    max-width: 400px;
+    margin: 1rem auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .todo-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  
+  .todo-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    margin-right: 4rem;
+  }
+  
+  .todo-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .todo-checkbox {
+    margin-right: 10px;
+  }
+  
+  .todo-text {
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  
+  .todo-remove {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-remove:hover {
+    background-color: #c82333;
+  }
+  
